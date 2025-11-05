@@ -5,6 +5,6 @@ A boilerplate e-commerce project emphasizing mastery of core web technologies. T
 
 Technologies Used:
 
-HTML5: Semantic structure.
-CSS3: Flexbox and Grid layouts, CSS variables.
+HTML5: Semantic structure.<br>
+CSS3: Flexbox and Grid layouts, CSS variables.<br>
 JavaScript (ES6+): Object-Oriented principles, Array methods (map, filter, reduce), and efficient DOM manipulation.
