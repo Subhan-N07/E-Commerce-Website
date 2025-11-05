@@ -1,0 +1,459 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+.air{
+    color: yellow;
+}
+
+.nav{
+    display: flex;
+    justify-content:space-between;
+    align-items:center;
+    background-color: black;
+    color: white;
+    height: 60px;
+
+}
+
+.snk{
+        font-weight:900;
+        font-size: 25px;
+        font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        margin-left: 35px;
+}
+
+.src{
+    border:none;
+    border-color: transparent;
+    height: 35px;
+    width: 12rem;
+    background-color: grey;
+    border-radius: 7px;
+    cursor: pointer;
+    margin-right: 10px;
+}
+
+.src::placeholder{
+    color: lightgrey;
+    text-align:center;
+}
+
+.text{
+    margin-right: 35px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    border-bottom: 2px solid green;
+    cursor: pointer;
+}
+
+.nav2{
+    display: flex;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    height: 60px;
+    gap: 80px;
+}
+
+.nav2 .menu{
+    color: lightgray;
+    text-decoration: none;
+    font-family:Arial, Helvetica, sans-serif;
+    margin-top: 10px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+.ri-search-line{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.slider{
+    background: url("brick.jpg");
+    width: 100%;
+    height: 200%;
+    /*clip-path: polygon(0 24%, 100% 0, 100% 100%, 0 100%);*/
+}
+
+.sliderwrapper{
+    display: flex;
+    width: 500vw;
+    transition: all 1.5s ease-in-out;
+}
+
+.slideritem{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.slidertitle{
+    position: absolute;
+    top: 180px;
+    left: 15rem;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: left;
+    z-index: 1;
+    color: wheat;
+}
+
+.sliderimg{
+    z-index: 1;
+}
+.a1{
+    height: 32rem;
+    width: 58rem;
+    box-shadow: 0px 0px 50px grey;
+}
+
+.sliderprice{
+    position: absolute;
+    top: 180px;
+    right: 2rem;
+    font-size: 60px;
+    font-weight: bolder;
+    text-align: left;
+    border: 1px solid grey;
+    color: white
+}
+
+.buybutton{
+    position: absolute;
+    top: 380px;
+    right: 1rem;
+    font-size: 30px;
+    font-weight: bold;
+    text-align: left;
+    border: 1px solid transparent;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.buybutton:hover{
+    background-color: white;
+    color: black;
+}
+
+/*.slidebg{
+    height: 750px;
+    width: 750px;
+    border-radius: 50%;
+    background-color: blue;
+    position: absolute;
+}*/
+
+.features{
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    padding: 50px;
+}
+
+.feature{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+.icon{
+    width: 60px;
+}
+
+.featuretitle{
+    font-weight: bolder;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin-top: 5px;
+    margin-bottom: 10px;
+    color: darkgreen;
+}
+
+.featuredesc{
+    color: grey;
+    font-size: 15px;
+    width: 50%;
+    height: 100px;
+}
+
+
+
+.product {
+    display: flex;
+}
+
+.pdt{
+    
+    padding: 20px;
+    height: 70vh;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 50px;
+    border-radius: 20px;
+}
+
+.pimg{
+    height: 100vh;
+}
+
+.productitle{
+    font-size: 100px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 700;
+    text-align: center;
+    color: grey;
+}
+
+.productdesc{
+    font-size: 24px;
+    color: grey;
+}
+
+.productprice{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    margin-top: 20px;
+}
+
+.productdesc{
+    margin-top: 15px;
+    text-align: left;
+    font-size: 20px;
+}
+
+.color{
+    width: 32px;
+    height: 32px;
+    border-radius: 5px;
+    background-color: black;
+    margin-right: 10px;
+    cursor: pointer;
+    margin-top: 50px;
+}
+
+.size{
+    border: 1px solid black;
+    padding:5px 20px;
+    margin-right: 10px;
+    font-weight: bold;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    cursor: pointer;
+    margin-top: 70px;
+}
+
+.productbuy{
+    padding: 10px;
+    background-color: black;
+    color: white;
+    cursor: pointer;
+    height: 40px;
+    width: 100px;
+    float: right;
+    margin-top: 50px;
+}
+
+.productbuy:hover{
+    background-color: white;
+    color: black
+}
+
+.payment{
+    width: 500px;
+    height: 500px;
+    background-color: white;
+    bottom: 0;
+    top: 80rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    position: absolute;
+    display: none;
+    flex-direction: column;
+    padding: 10px 20px;
+    box-shadow: 0px 0px 13px 2px black;
+}
+
+.paytitle{
+    font-size: 20px;
+    color: lightgray;
+}
+
+label{
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.payinput{
+    padding: 10px;
+    margin: 10px 0px;
+    border: none;
+    border-bottom: 1px solid gray;
+}
+
+.payinput::placeholder{
+    color: lightgrey;
+}
+
+.cardicons{
+    display: flex;
+}
+
+.cardicon{
+    margin-right: 10px;
+}
+
+.cardinfo{
+    display: flex;
+    justify-content: space-between;
+}
+
+.sm{
+    width: 30%;
+}
+
+.paybutton{
+    position: absolute;
+    height: 40px;
+    bottom: 0;
+    width: 100%;
+    left: 0;
+    color: white;
+    background-color: green;
+    border: none;
+}
+
+.close{
+    height: 20px;
+    width: 20px;
+    position: absolute;
+    background-color: black;
+    color: white;
+    top: 10px;
+    right: 10px;
+    padding: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.gallery{
+    padding: 50px;
+    display: flex;
+}
+
+.galleryitem{
+    width: 33.3%;
+    padding: 50px;
+}
+
+.galleryimage{
+    width: 100%;
+}
+
+.newseason{
+    display: flex;
+}
+
+.nsitem{
+    flex: 1;
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.nsimg{
+    width: 100%;
+    height: 500px;
+}
+
+.nstitle{
+    font-size: 30px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.nsbutton{
+    padding: 15px;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+footer{
+    display: flex;
+}
+
+.footerleft{
+    flex: 2;
+    justify-content: space-between;
+    padding: 50px;
+}
+
+.footerright{
+    flex: 1;
+    padding: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.menutitle{
+    font-size: 25px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    margin-bottom: 10px;
+    font-weight: 700;
+}
+
+.fmenulist{
+    padding: 0px;
+    list-style: none ;
+}
+
+.flistitem{
+    margin-bottom: 10px;
+    color: grey;
+    cursor: pointer;
+}
+
+.finput{
+    padding: 5px;
+}
+
+.fbutton{
+    padding: 5px;
+    background-color: black;
+    color: white;
+}
+
+.ficons{
+    display: flex;
+}
+
+.ficon{
+    width: 47px;
+    height: 37px;
+    margin-right: 13px;
+}
+
+.copyright{
+    font-weight: 300;
+    font-size: 14px;
+}
+
+.fmenutitle{
+    margin-bottom: 10px;
+    font-size: 50;
+}
+
+.fmail{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
