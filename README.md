@@ -3,8 +3,8 @@ A sleek, responsive, and fully functional e-commerce frontend built exclusively 
 
 <p>A boilerplate e-commerce project emphasizing mastery of core web technologies. This is a great starting point for developers looking to understand how to build complex, stateful applications without relying on large libraries or frameworks.</p>
 
-<b>Technologies Used:</b>
+<b><ul>Technologies Used:</ul></b>
 
-HTML5: Semantic structure.<br>
-CSS3: Flexbox and Grid layouts, CSS variables.<br>
-JavaScript (ES6+): Object-Oriented principles, Array methods (map, filter, reduce), and efficient DOM manipulation.
+<b>HTML5</b>: Semantic structure.<br>
+<b>CSS3</b>: Flexbox and Grid layouts, CSS variables.<br>
+<b>JavaScript (ES6+)</b>: Object-Oriented principles, Array methods (map, filter, reduce), and efficient DOM manipulation.
